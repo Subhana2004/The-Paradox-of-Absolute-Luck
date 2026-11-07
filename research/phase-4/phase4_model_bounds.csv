@@ -1,0 +1,5 @@
+model,objective,arbitrary_dependence_min,arbitrary_dependence_max
+equal,all,0.0,0.665
+equal,any,0.665,1.0
+concentrated,all,0.0,0.5
+concentrated,any,0.995,1.0

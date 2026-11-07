@@ -1,0 +1,47 @@
+{
+  "label": "Illustrative probability-model validation, not empirical webtoon data",
+  "collision": {
+    "requested_A_win": 0.99,
+    "requested_B_win": 0.99,
+    "feasible": false
+  },
+  "weighted_choice": {
+    "lucky_vs_ordinary": 0.99,
+    "equally_lucky_head_to_head": 0.5,
+    "three_equally_lucky": 0.3333333333333333
+  },
+  "nonexclusive_counterexample": {
+    "marginals": [
+      0.99,
+      0.99
+    ],
+    "joint": 0.9801
+  },
+  "three_coin_bounds": {
+    "n": 3,
+    "marginal_probability": 0.995,
+    "minimum_joint": 0.985,
+    "maximum_joint": 0.995,
+    "theoretical_minimum": 0.985,
+    "theoretical_maximum": 0.995,
+    "independent_joint": 0.985074875
+  },
+  "forced_context_change": {
+    "joint": 0.6,
+    "marginals": [
+      0.8666666666666667,
+      0.8666666666666667,
+      0.8666666666666667
+    ],
+    "sum_marginal_loss": 0.3849999999999998,
+    "min_loss_of_at_least_one_coin": 0.12833333333333327,
+    "unchanged_0_995_marginals_feasible": false
+  },
+  "two_hundred_coin_construction": {
+    "n": 200,
+    "each_marginal": 0.995,
+    "joint_all_success": 0.0,
+    "independent_joint_for_comparison": 0.36695782172616703,
+    "number_of_equally_likely_failure_states": 200
+  }
+}

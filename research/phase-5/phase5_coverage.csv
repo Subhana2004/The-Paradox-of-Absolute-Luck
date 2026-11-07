@@ -1,0 +1,6 @@
+true_p,trials_per_replicate,replicates,covered,observed_coverage,in_preregistered_calibration_window
+0.005,400,600,571,0.9516666666666667,True
+0.3,400,600,573,0.955,True
+0.4,400,600,562,0.9366666666666666,True
+0.5,400,600,572,0.9533333333333334,True
+0.995,400,600,572,0.9533333333333334,True

@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "title": "Absolute Luck Phase 4 proof and stress test audit",
+    "date": "2026-11-07",
+    "webtoon_measurements": false,
+    "hypothetical_models_only": true,
+    "claims_of_new_theorems": false
+  },
+  "preserved_baseline": {
+    "phase2_and_phase3_replay": true,
+    "sha256": {
+      "phase3_verify.py": "845d86717b1f1e8bdfabae8f6d0dc78d2d45cede771e0a9ef8d15f17bc566cbc",
+      "phase3_validation.json": "b9e172e72f0ba5e2a4c93137f4738197493e1e5d1b914bb470fc994beec42f63",
+      "phase3_predictions.csv": "9b31095e9aa9091ede53a006c279a75b9510dfb9fca936beed03314d187965ec",
+      "Absolute_Luck_Phase3_Mathematical_Model_Development_2026-11-07.md": "28a604e89c25749f08e3e6f1c93a73e91856ca97f5df1c59d05184c49062db81",
+      "source_phase2/phase2_verify.py": "d0eada20dd99e26d8c266c976977ae7fc0bd070c072e79d19cd7eed8034fffac",
+      "source_phase2/phase2_validation.json": "a2495675538e08ee314b1eac00fab1ba845bef3b18b1c7ac73df89987838bde3",
+      "source_phase2/Absolute_Luck_Phase2_Paradox_Construction_2026-11-07.md": "a0fdf0facf09338258022209c2bb055503159dfd372e59b02e94a65fa57a4a47"
+    }
+  },
+  "M1_collision": {
+    "M1_BTL_duel": "1/2",
+    "random_ranking_duel": "9/10",
+    "both_defeat_normal": "99/100",
+    "random_ranking_3way_top": {
+      "A": "89/100",
+      "B": "1/10",
+      "N": "1/100"
+    },
+    "counterexample_is_coherent_joint_ranking": true
+  },
+  "M2_sharp_event_bounds": {
+    "scenarios_checked": 16,
+    "scenarios": [
+      {
+        "n": 2,
+        "p": "1/5",
+        "min_all": 0.0,
+        "max_all": 0.2
+      },
+      {
+        "n": 2,
+        "p": "1/2",
+        "min_all": 0.0,
+        "max_all": 0.5
+      },
+      {
+        "n": 2,
+        "p": "133/200",
+        "min_all": 0.33000000000000007,
+        "max_all": 0.665
+      },
+      {
+        "n": 2,
+        "p": "199/200",
+        "min_all": 0.99,
+        "max_all": 0.995
+      },
+      {
+        "n": 3,
+        "p": "1/5",
+        "min_all": 0.0,
+        "max_all": 0.2
+      },
+      {
+        "n": 3,
+        "p": "1/2",
+        "min_all": 0.0,
+        "max_all": 0.5
+      },
+      {
+        "n": 3,
+        "p": "133/200",
+        "min_all": 0.0,
+        "max_all": 0.665
+      },
+      {
+        "n": 3,
+        "p": "199/200",
+        "min_all": 0.985,
+        "max_all": 0.995
+      },
+      {
+        "n": 4,
+        "p": "1/5",
+        "min_all": 0.0,
+        "max_all": 0.2
+      },
+      {
+        "n": 4,
+        "p": "1/2",
+        "min_all": 0.0,
+        "max_all": 0.5
+      },
+      {
+        "n": 4,
+        "p": "133/200",
+        "min_all": 0.0,
+        "max_all": 0.665
+      },
+      {
+        "n": 4,
+        "p": "199/200",
+        "min_all": 0.98,
+        "max_all": 0.995
+      },
+      {
+        "n": 5,
+        "p": "1/5",
+        "min_all": 0.0,
+        "max_all": 0.2
+      },
+      {
+        "n": 5,
+        "p": "1/2",
+        "min_all": 0.0,
+        "max_all": 0.5
+      },
+      {
+        "n": 5,
+        "p": "133/200",
+        "min_all": 0.0,
+        "max_all": 0.665
+      },
+      {
+        "n": 5,
+        "p": "199/200",
+        "min_all": 0.9750000000000002,
+        "max_all": 0.995
+      }
+    ]
+  },
+  "M2_pairwise_counterexamples": {
+    "L_joint": "3/10",
+    "H_joint": "2/5",
+    "single_and_pairwise_equal": true,
+    "positive_pairwise_covariance": "19/1600",
+    "positive_covariance_triple_joint": "1/20",
+    "independent_at_same_marginal": "9261/64000",
+    "pairwise_positive_does_not_imply_latent_iid": true
+  },
+  "M2_exchangeability": {
+    "n": 200,
+    "p_each": "199/200",
+    "corr": "-1/199",
+    "201_exchangeable_extension_possible": false,
+    "max_probability_exactly_one_failure_among_first_200": "200/201",
+    "sharp_minimum_total_variation_gap": "1/201",
+    "infinite_exchangeable_all_success_min": 0.36695782172616703
+  },
+  "M3_adversarial": {
+    "independent_equal_all": 0.294079625,
+    "independent_concentrated_all": 0.24875,
+    "independent_equal_any": 0.962404625,
+    "independent_concentrated_any": 0.99875,
+    "dependent_equal_all": 0.0,
+    "dependent_concentrated_all": 0.5,
+    "dependent_equal_any": 1.0,
+    "dependent_concentrated_any": 0.995,
+    "sharp_arbitrary_dependence_intervals": {
+      "equal": {
+        "all": [
+          0.0,
+          0.665
+        ],
+        "any": [
+          0.665,
+          1.0
+        ]
+      },
+      "concentrated": {
+        "all": [
+          0.0,
+          0.5
+        ],
+        "any": [
+          0.995,
+          1.0
+        ]
+      }
+    },
+    "heterogeneous_baseline_reversal": {
+      "weak_target": 0.24,
+      "equal": 0.2125
+    },
+    "nonlinear_response_reversal": {
+      "concentrated": 0.035,
+      "equal": 0.02640625
+    }
+  },
+  "finite_extendibility_grid": {
+    "n_r_scenarios": 55,
+    "proposition_verified_on_grid": true
+  },
+  "gate": {
+    "phase2_and_phase3_regression_pass": true,
+    "M1_tested_with_joint_ranking": true,
+    "M2_sharp_bounds_lp_checked": true,
+    "finite_vs_infinite_exchangeability_verified": true,
+    "201_extension_impossibility_proved": true,
+    "pairwise_and_positive_covariance_counterexamples_verified": true,
+    "M3_independence_assumption_stress_tested": true,
+    "dependence_robust_bounds_checked": true,
+    "proof_and_counterexample_scope_labeled": true,
+    "phase4_complete": true
+  },
+  "tests": [
+    {
+      "test": "preserved_baseline",
+      "result": "PASS",
+      "details": {
+        "phase2_and_phase3_replay": true,
+        "sha256": {
+          "phase3_verify.py": "845d86717b1f1e8bdfabae8f6d0dc78d2d45cede771e0a9ef8d15f17bc566cbc",
+          "phase3_validation.json": "b9e172e72f0ba5e2a4c93137f4738197493e1e5d1b914bb470fc994beec42f63",
+          "phase3_predictions.csv": "9b31095e9aa9091ede53a006c279a75b9510dfb9fca936beed03314d187965ec",
+          "Absolute_Luck_Phase3_Mathematical_Model_Development_2026-11-07.md": "28a604e89c25749f08e3e6f1c93a73e91856ca97f5df1c59d05184c49062db81",
+          "source_phase2/phase2_verify.py": "d0eada20dd99e26d8c266c976977ae7fc0bd070c072e79d19cd7eed8034fffac",
+          "source_phase2/phase2_validation.json": "a2495675538e08ee314b1eac00fab1ba845bef3b18b1c7ac73df89987838bde3",
+          "source_phase2/Absolute_Luck_Phase2_Paradox_Construction_2026-11-07.md": "a0fdf0facf09338258022209c2bb055503159dfd372e59b02e94a65fa57a4a47"
+        }
+      }
+    },
+    {
+      "test": "M1_collision",
+      "result": "PASS",
+      "details": {
+        "M1_BTL_duel": "1/2",
+        "random_ranking_duel": "9/10",
+        "both_defeat_normal": "99/100",
+        "random_ranking_3way_top": {
+          "A": "89/100",
+          "B": "1/10",
+          "N": "1/100"
+        },
+        "counterexample_is_coherent_joint_ranking": true
+      }
+    },
+    {
+      "test": "M2_sharp_event_bounds",
+      "result": "PASS",
+      "details": {
+        "scenarios_checked": 16,
+        "scenarios": [
+          {
+            "n": 2,
+            "p": "1/5",
+            "min_all": 0.0,
+            "max_all": 0.2
+          },
+          {
+            "n": 2,
+            "p": "1/2",
+            "min_all": 0.0,
+            "max_all": 0.5
+          },
+          {
+            "n": 2,
+            "p": "133/200",
+            "min_all": 0.33000000000000007,
+            "max_all": 0.665
+          },
+          {
+            "n": 2,
+            "p": "199/200",
+            "min_all": 0.99,
+            "max_all": 0.995
+          },
+          {
+            "n": 3,
+            "p": "1/5",
+            "min_all": 0.0,
+            "max_all": 0.2
+          },
+          {
+            "n": 3,
+            "p": "1/2",
+            "min_all": 0.0,
+            "max_all": 0.5
+          },
+          {
+            "n": 3,
+            "p": "133/200",
+            "min_all": 0.0,
+            "max_all": 0.665
+          },
+          {
+            "n": 3,
+            "p": "199/200",
+            "min_all": 0.985,
+            "max_all": 0.995
+          },
+          {
+            "n": 4,
+            "p": "1/5",
+            "min_all": 0.0,
+            "max_all": 0.2
+          },
+          {
+            "n": 4,
+            "p": "1/2",
+            "min_all": 0.0,
+            "max_all": 0.5
+          },
+          {
+            "n": 4,
+            "p": "133/200",
+            "min_all": 0.0,
+            "max_all": 0.665
+          },
+          {
+            "n": 4,
+            "p": "199/200",
+            "min_all": 0.98,
+            "max_all": 0.995
+          },
+          {
+            "n": 5,
+            "p": "1/5",
+            "min_all": 0.0,
+            "max_all": 0.2
+          },
+          {
+            "n": 5,
+            "p": "1/2",
+            "min_all": 0.0,
+            "max_all": 0.5
+          },
+          {
+            "n": 5,
+            "p": "133/200",
+            "min_all": 0.0,
+            "max_all": 0.665
+          },
+          {
+            "n": 5,
+            "p": "199/200",
+            "min_all": 0.9750000000000002,
+            "max_all": 0.995
+          }
+        ]
+      }
+    },
+    {
+      "test": "M2_pairwise_counterexamples",
+      "result": "PASS",
+      "details": {
+        "L_joint": "3/10",
+        "H_joint": "2/5",
+        "single_and_pairwise_equal": true,
+        "positive_pairwise_covariance": "19/1600",
+        "positive_covariance_triple_joint": "1/20",
+        "independent_at_same_marginal": "9261/64000",
+        "pairwise_positive_does_not_imply_latent_iid": true
+      }
+    },
+    {
+      "test": "M2_exchangeability",
+      "result": "PASS",
+      "details": {
+        "n": 200,
+        "p_each": "199/200",
+        "corr": "-1/199",
+        "201_exchangeable_extension_possible": false,
+        "max_probability_exactly_one_failure_among_first_200": "200/201",
+        "sharp_minimum_total_variation_gap": "1/201",
+        "infinite_exchangeable_all_success_min": 0.36695782172616703
+      }
+    },
+    {
+      "test": "M3_adversarial",
+      "result": "PASS",
+      "details": {
+        "independent_equal_all": 0.294079625,
+        "independent_concentrated_all": 0.24875,
+        "independent_equal_any": 0.962404625,
+        "independent_concentrated_any": 0.99875,
+        "dependent_equal_all": 0.0,
+        "dependent_concentrated_all": 0.5,
+        "dependent_equal_any": 1.0,
+        "dependent_concentrated_any": 0.995,
+        "sharp_arbitrary_dependence_intervals": {
+          "equal": {
+            "all": [
+              0.0,
+              0.665
+            ],
+            "any": [
+              0.665,
+              1.0
+            ]
+          },
+          "concentrated": {
+            "all": [
+              0.0,
+              0.5
+            ],
+            "any": [
+              0.995,
+              1.0
+            ]
+          }
+        },
+        "heterogeneous_baseline_reversal": {
+          "weak_target": 0.24,
+          "equal": 0.2125
+        },
+        "nonlinear_response_reversal": {
+          "concentrated": 0.035,
+          "equal": 0.02640625
+        }
+      }
+    },
+    {
+      "test": "finite_extendibility_grid",
+      "result": "PASS",
+      "details": {
+        "n_r_scenarios": 55,
+        "proposition_verified_on_grid": true
+      }
+    }
+  ]
+}

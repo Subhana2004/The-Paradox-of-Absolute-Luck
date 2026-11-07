@@ -1,0 +1,725 @@
+{
+  "phase": 6,
+  "audit_kind": "fresh exact-arithmetic, LP, CSV and archived-integrity check (not independent external peer review)",
+  "source_archive_sha256": "d43e99eebcbc0842a0df9b6e03ee717b833b816ffb5d9a5cb9c7cb7beb060a3f",
+  "checks": [
+    {
+      "name": "ZIP central-directory CRC check",
+      "pass": true,
+      "details": {
+        "files": 44
+      }
+    },
+    {
+      "name": "SHA256 Absolute_Luck_Phase5_Computational_Experiments_Report_2026-11-07.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 README.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 STUDY_PLAN.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig01_collision.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig01_collision.svg",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig02_joint_200_coins.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig02_joint_200_coins.svg",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig03_allocation_dependence.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig03_allocation_dependence.svg",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig04_identifiability.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig04_identifiability.svg",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig05_convergence.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 figures/fig05_convergence.svg",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase4_input_unchanged.zip",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_audit.json",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_audit.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_audit_log.txt",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_convergence.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_coverage.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_experiments.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_figures.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_identifiability.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_metrics.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_paired_contrasts.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 phase5_validation.json",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 requirements.txt",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 simulation_log.txt",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/Absolute_Luck_Phase4_Proofs_and_Stress_Testing_2026-11-07.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/README.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/phase4_dependence_stress_test.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/phase4_figure.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/phase4_model_bounds.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/phase4_validation.json",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/phase4_verify.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/Absolute_Luck_Phase3_Mathematical_Model_Development_2026-11-07.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/README.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/phase3_model_comparison.png",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/phase3_predictions.csv",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/phase3_validation.json",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/phase3_verify.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/source_phase2/Absolute_Luck_Phase2_Paradox_Construction_2026-11-07.md",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/source_phase2/phase2_validation.json",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "SHA256 source_phase4/source_phase3/source_phase2/phase2_verify.py",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "manifest count",
+      "pass": true,
+      "details": {
+        "count": 43
+      }
+    },
+    {
+      "name": "collision impossibility",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "coherent ranking",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "exchangeable 3-coin L",
+      "pass": true,
+      "details": {
+        "p": "7/10",
+        "pair": "1/2",
+        "triple": "3/10"
+      }
+    },
+    {
+      "name": "exchangeable 3-coin H",
+      "pass": true,
+      "details": {
+        "p": "7/10",
+        "pair": "1/2",
+        "triple": "2/5"
+      }
+    },
+    {
+      "name": "sharp 3-coin intersection [0.3,0.4]",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "exact 200-coin covariance and exchangeable nonextendibility",
+      "pass": true,
+      "details": {
+        "cov": "-1/40000",
+        "rho": "-1/199"
+      }
+    },
+    {
+      "name": "201-ext TV sharp bound",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "200-coin independent and shared Beta formulas",
+      "pass": true,
+      "details": {
+        "independent": 0.36695782172616703,
+        "latent": 0.49874686716791977
+      }
+    },
+    {
+      "name": "de Finetti Jensen lower bound",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "exact rational independent equal allocation",
+      "pass": true,
+      "details": {
+        "p_equal_ind": "2352637/8000000"
+      }
+    },
+    {
+      "name": "allocation outcomes and sign reversal",
+      "pass": true,
+      "details": {
+        "equal_ind": 0.294079625,
+        "concentrated_ind": 0.24875,
+        "equal_fixed": 0.33,
+        "concentrated_fixed": 0.495
+      }
+    },
+    {
+      "name": "independent LP 3-coin Fr\u00e9chet endpoints",
+      "pass": true,
+      "details": {
+        "low": 0.985,
+        "high": 0.995
+      }
+    },
+    {
+      "name": "63 recorded Bernoulli estimators",
+      "pass": true,
+      "details": {
+        "count": 63
+      }
+    },
+    {
+      "name": "metric BTL_stable_strengths A_beats_N",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric BTL_stable_strengths B_beats_N",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric BTL_stable_strengths A_beats_B",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric BTL_stable_strengths A_wins_three_way",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric BTL_stable_strengths N_wins_three_way",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric latent_random_ranking A_beats_N",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric latent_random_ranking B_beats_N",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric latent_random_ranking A_beats_B",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric latent_random_ranking A_wins_three_way",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric latent_random_ranking N_wins_three_way",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L pair12_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L pair13_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L pair23_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric L all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H pair12_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H pair13_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H pair23_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric H all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric finite_exactly_one_failure all_200_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric finite_exactly_one_failure coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric finite_exactly_one_failure pair12_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric iid all_200_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric iid coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric iid pair12_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric shared_beta all_200_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric shared_beta coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric shared_beta pair12_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_equal all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_equal at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_equal coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_equal coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_equal coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_concentrated all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_concentrated at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_concentrated coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_concentrated coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric independent_concentrated coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_equal all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_equal at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_equal coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_equal coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_equal coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_concentrated all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_concentrated at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_concentrated coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_concentrated coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric comonotonic_concentrated coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_equal all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_equal at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_equal coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_equal coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_equal coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_concentrated all_three_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_concentrated at_least_one_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_concentrated coin1_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_concentrated coin2_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "metric fixed_mixed_concentrated coin3_success",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "pointwise CI exclusion count",
+      "pass": true,
+      "details": {
+        "count": 8,
+        "worst_abs_error": 0.003166666666666651
+      }
+    },
+    {
+      "name": "exact identification n=25",
+      "pass": true,
+      "details": {
+        "accuracy": 0.7016983374791478
+      }
+    },
+    {
+      "name": "exact identification n=50",
+      "pass": true,
+      "details": {
+        "accuracy": 0.7726586302047795
+      }
+    },
+    {
+      "name": "exact identification n=100",
+      "pass": true,
+      "details": {
+        "accuracy": 0.8534025913586052
+      }
+    },
+    {
+      "name": "exact identification n=200",
+      "pass": true,
+      "details": {
+        "accuracy": 0.931655485794658
+      }
+    },
+    {
+      "name": "exact identification n=500",
+      "pass": true,
+      "details": {
+        "accuracy": 0.9906933241411394
+      }
+    },
+    {
+      "name": "exact identification n=1000",
+      "pass": true,
+      "details": {
+        "accuracy": 0.9995568547662201
+      }
+    },
+    {
+      "name": "one-/two-coordinate protocol cannot identify",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "paired contrasts recorded and correct sign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "paired theoretical independent",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "paired theoretical comonotonic",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "paired theoretical fixed_mixed",
+      "pass": true,
+      "details": {}
+    }
+  ],
+  "passed": true,
+  "check_count": 133,
+  "exposure_limits": [
+    "The analytical results are classical or elementary derivations; no originality attested.",
+    "No empirical WEBTOON samples or authenticated activation frequencies.",
+    "Simulations check implementations of stipulated probability laws, not the fictional mechanism.",
+    "Primary-source access verifies bibliography metadata/abstracts, not necessarily every cited paper in full."
+  ]
+}

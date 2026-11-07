@@ -1,0 +1,4 @@
+model,coupling,contrast,n,empirical_difference,theoretical_difference,paired_se,normal95_lower,normal95_upper,theory_in_normal95,accuracy_diagnostic_pass
+M3,independent,concentrated_minus_equal_all_success,120000,-0.046141666666666664,-0.04532962500000001,0.0013185040504198307,-0.04872588711895971,-0.043557446214373616,True,True
+M3,comonotonic,concentrated_minus_equal_all_success,120000,-0.165825,-0.16500000000000004,0.0010736550583178637,-0.16792932524612225,-0.16372067475387775,True,True
+M3,fixed_mixed,concentrated_minus_equal_all_success,120000,0.16485,0.16499999999999992,0.0019732482481839343,0.16098250450100274,0.16871749549899726,True,True

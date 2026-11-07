@@ -1,0 +1,120 @@
+{
+  "checks": [
+    {
+      "check": "unchanged_phase4_archive",
+      "details": {
+        "identical_frozen_archive_entries": 16,
+        "phase4_zip_sha256": "149ff420bd6b2505e32f4f4dbb27c14b93742c2c29d87721ee565cdb3bb14861"
+      },
+      "pass": true
+    },
+    {
+      "check": "phase2_to_phase4_isolated_regression",
+      "details": {
+        "frozen_files_unchanged": 16,
+        "phase2_phase3_regression_replayed": true,
+        "phase4_replay_success": true
+      },
+      "pass": true
+    },
+    {
+      "check": "exact_formulas_and_independent_Wilson_calculation",
+      "details": {
+        "important_warning": "Pointwise 95% intervals are not simultaneous coverage guarantees; failure to contain a true probability is expected in some repeated samples.",
+        "independently_rederived_exact_values": 17,
+        "scenarios": 63,
+        "theoretical_values_outside_pointwise_95pct_wilson_intervals": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "identifiability_uncertainty_and_paired_contrast",
+      "details": {
+        "classification_sample_sizes": 6,
+        "fixed_dependence_reversal_exact": 0.16499999999999998,
+        "paired_allocation_tests": 3,
+        "wilson_coverage_cases": 5
+      },
+      "pass": true
+    },
+    {
+      "check": "full_phase5_byte_identical_replay",
+      "details": {
+        "byte_identical_figure_files": 10,
+        "byte_identical_result_files": 6,
+        "replay_in_separate_temporary_directory": true
+      },
+      "pass": true
+    },
+    {
+      "check": "figure_resolution_and_vector_audit",
+      "details": {
+        "all_five_vector_and_300dpi_raster": true,
+        "figures": [
+          {
+            "base_name": "fig01_collision",
+            "png_bytes": 194662,
+            "png_dimensions": [
+              2763,
+              1434
+            ],
+            "svg_bytes": 17759
+          },
+          {
+            "base_name": "fig02_joint_200_coins",
+            "png_bytes": 212471,
+            "png_dimensions": [
+              2599,
+              1420
+            ],
+            "svg_bytes": 12274
+          },
+          {
+            "base_name": "fig03_allocation_dependence",
+            "png_bytes": 152965,
+            "png_dimensions": [
+              2554,
+              1494
+            ],
+            "svg_bytes": 16213
+          },
+          {
+            "base_name": "fig04_identifiability",
+            "png_bytes": 193112,
+            "png_dimensions": [
+              2493,
+              1411
+            ],
+            "svg_bytes": 15124
+          },
+          {
+            "base_name": "fig05_convergence",
+            "png_bytes": 250652,
+            "png_dimensions": [
+              2523,
+              1434
+            ],
+            "svg_bytes": 26797
+          }
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "completion_gate": {
+    "byte_for_byte_reproducibility": true,
+    "fixed_mechanism_comparison": true,
+    "frozen_phase4_integrity": true,
+    "identifiability_and_uncertainty": true,
+    "independent_formula_coverage": true,
+    "phase2_phase3_phase4_regressions": true,
+    "publication_figures": true,
+    "simulation_accuracy": true
+  },
+  "date": "2026-11-07",
+  "novel_mathematical_theorem_proven": false,
+  "phase": 5,
+  "status": "PASS",
+  "synthetic_probabilities_only": true,
+  "webtoon_canon_measured": false
+}
