@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "title": "Absolute Luck Phase 3 Mathematical Model Verification",
+    "date": "2026-11-07",
+    "empirical_webtoon_measurements": false,
+    "source": "Fixed hypothetical parameters and exact finite probability models"
+  },
+  "phase2_regression": {
+    "passed": true,
+    "last_line": "      drastic-drop infeasibility, sharp marginal-loss witness, 200-coin counterexample",
+    "hashes": {
+      "Absolute_Luck_Phase2_Paradox_Construction_2026-11-07.md": "a0fdf0facf09338258022209c2bb055503159dfd372e59b02e94a65fa57a4a47",
+      "phase2_verify.py": "d0eada20dd99e26d8c266c976977ae7fc0bd070c072e79d19cd7eed8034fffac",
+      "phase2_validation.json": "a2495675538e08ee314b1eac00fab1ba845bef3b18b1c7ac73df89987838bde3"
+    }
+  },
+  "M1_collision": {
+    "lucky_vs_normal_A": 0.99,
+    "lucky_vs_normal_B": 0.99,
+    "equal_luck_duel_A": 0.5,
+    "three_player": {
+      "A": 0.49748743718592964,
+      "B": 0.49748743718592964,
+      "N": 0.005025125628140704
+    },
+    "context_specific_valid_non_BTL_counterexample": {
+      "A_vs_N": 0.99,
+      "B_vs_N": 0.99,
+      "A_vs_B": 0.9
+    },
+    "BTL_expected_A_vs_B_odds": 1.0,
+    "counterexample_A_vs_B_odds": 9.0,
+    "IIA_test_passed": true
+  },
+  "M2_pairwise_nonidentifiability": {
+    "shared_marginals": [
+      0.7,
+      0.7,
+      0.7
+    ],
+    "shared_pair_intersections": {
+      "12": 0.5,
+      "13": 0.5,
+      "23": 0.5
+    },
+    "law_low_count_masses": {
+      "K0": 0.1,
+      "K2": 0.6,
+      "K3": 0.3
+    },
+    "law_high_count_masses": {
+      "K1": 0.3,
+      "K2": 0.3,
+      "K3": 0.4
+    },
+    "min_all_success": 0.30000000000000004,
+    "max_all_success": 0.40000000000000013,
+    "conditional_third_given_first_two_low": 0.6,
+    "conditional_third_given_first_two_high": 0.8
+  },
+  "M2_parity_counterexample": {
+    "each_marginal": 0.5,
+    "each_pair_intersection": 0.25,
+    "all_success_even": 0,
+    "all_success_odd": 0.25,
+    "both_pairwise_independent": true,
+    "neither_jointly_independent": true
+  },
+  "M2_finite_vs_infinite_exchangeability": {
+    "n": 200,
+    "same_each_marginal": 0.995,
+    "finite_one_failure_joint": 0.0,
+    "finite_pair_success": 0.99,
+    "finite_pair_correlation": -0.005025125628151304,
+    "independent_joint": 0.36695782172616703,
+    "two_point_latent_mixture_joint": 0.5669898374289809,
+    "infinite_exchangeable_min_joint_by_Jensen": 0.36695782172616703,
+    "finite_construction_not_infinitely_extendible": true
+  },
+  "M3_shared_budget": {
+    "n": 3,
+    "boost_budget": 0.495,
+    "baseline": 0.5,
+    "equal_all_success": 0.29407962500000007,
+    "concentrated_all_success": 0.24875,
+    "equal_at_least_one": 0.962404625,
+    "concentrated_at_least_one": 0.99875,
+    "all_objective_prefers_equal": true,
+    "any_objective_prefers_concentrated": true,
+    "grid_max_joint": 0.294079625,
+    "grid_max_any": 0.99875
+  },
+  "cross_model_joint_nonidentifiability": {
+    "observed_3_coin_all_success": 0.6,
+    "independence_implied_marginal": 0.8434326653017492,
+    "all_or_none_implied_marginal": 0.6,
+    "exactly_two_failure_witness_implied_marginal": 0.8666666666666667,
+    "joint_only_nonidentifiable": true
+  },
+  "predictions": [
+    {
+      "n": 1,
+      "M2_same_p_sharp_joint_lower": 0.995,
+      "M2_same_p_independent_joint": 0.995,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.995,
+      "M3_equal_budget_independent_joint": 0.995,
+      "M3_concentrated_budget_independent_joint": 0.995,
+      "M3_equal_budget_at_least_one": 0.995,
+      "M3_concentrated_budget_at_least_one": 0.995,
+      "M3_equal_budget_marginal": 0.995
+    },
+    {
+      "n": 2,
+      "M2_same_p_sharp_joint_lower": 0.99,
+      "M2_same_p_independent_joint": 0.990025,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.99005,
+      "M3_equal_budget_independent_joint": 0.5587562500000001,
+      "M3_concentrated_budget_independent_joint": 0.4975,
+      "M3_equal_budget_at_least_one": 0.93624375,
+      "M3_concentrated_budget_at_least_one": 0.9975,
+      "M3_equal_budget_marginal": 0.7475
+    },
+    {
+      "n": 3,
+      "M2_same_p_sharp_joint_lower": 0.985,
+      "M2_same_p_independent_joint": 0.985074875,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.9851495,
+      "M3_equal_budget_independent_joint": 0.29407962500000007,
+      "M3_concentrated_budget_independent_joint": 0.24875,
+      "M3_equal_budget_at_least_one": 0.962404625,
+      "M3_concentrated_budget_at_least_one": 0.99875,
+      "M3_equal_budget_marginal": 0.665
+    },
+    {
+      "n": 5,
+      "M2_same_p_sharp_joint_lower": 0.975,
+      "M2_same_p_independent_joint": 0.975248753121875,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.97549502495,
+      "M3_equal_budget_independent_joint": 0.07711415640299898,
+      "M3_concentrated_budget_independent_joint": 0.0621875,
+      "M3_equal_budget_at_least_one": 0.989631358397999,
+      "M3_concentrated_budget_at_least_one": 0.9996875,
+      "M3_equal_budget_marginal": 0.599
+    },
+    {
+      "n": 10,
+      "M2_same_p_sharp_joint_lower": 0.95,
+      "M2_same_p_independent_joint": 0.9511101304657719,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.9521910375044023,
+      "M3_equal_budget_independent_joint": 0.0025100187609492382,
+      "M3_concentrated_budget_independent_joint": 0.001943359375,
+      "M3_equal_budget_at_least_one": 0.9996556913344513,
+      "M3_concentrated_budget_at_least_one": 0.999990234375,
+      "M3_equal_budget_marginal": 0.5495
+    },
+    {
+      "n": 50,
+      "M2_same_p_sharp_joint_lower": 0.7499999999999998,
+      "M2_same_p_independent_joint": 0.7783125570686419,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.8025030335687682,
+      "M3_equal_budget_independent_joint": 2.367285284071804e-15,
+      "M3_concentrated_budget_independent_joint": 1.7674750552032492e-15,
+      "M3_equal_budget_at_least_one": 0.9999999999999997,
+      "M3_concentrated_budget_at_least_one": 1.0,
+      "M3_equal_budget_marginal": 0.5099
+    },
+    {
+      "n": 100,
+      "M2_same_p_sharp_joint_lower": 0.49999999999999956,
+      "M2_same_p_independent_joint": 0.6057704364907279,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.6830161706366146,
+      "M3_equal_budget_independent_joint": 2.112699130709076e-30,
+      "M3_concentrated_budget_independent_joint": 1.5698332013898135e-30,
+      "M3_equal_budget_at_least_one": 1.0,
+      "M3_concentrated_budget_at_least_one": 1.0,
+      "M3_equal_budget_marginal": 0.50495
+    },
+    {
+      "n": 200,
+      "M2_same_p_sharp_joint_lower": 0,
+      "M2_same_p_independent_joint": 0.36695782172616703,
+      "M2_same_p_sharp_joint_upper": 0.995,
+      "M2_latent_mixture_joint": 0.5669898374289809,
+      "M3_equal_budget_independent_joint": 1.6706742268058385e-60,
+      "M3_concentrated_budget_independent_joint": 1.2383800402943672e-60,
+      "M3_equal_budget_at_least_one": 1.0,
+      "M3_concentrated_budget_at_least_one": 1.0,
+      "M3_equal_budget_marginal": 0.502475
+    }
+  ],
+  "gate": {
+    "phase2_regression": true,
+    "three_coherent_model_families": true,
+    "proof_relevant_predictions_verified": true,
+    "two_distinct_nonidentifiability_examples": true,
+    "adversarial_counterexamples": true,
+    "hypothetical_vs_empirical_boundary": true,
+    "phase3_passed": true,
+    "novel_theorem_claimed": false
+  }
+}
