@@ -22,6 +22,7 @@ The repository contains the original verification programs and preserved nested 
 ```bash
 python -m pip install -r requirements-lock.txt
 sha256sum --check publication/ASSET_SHA256SUMS.txt
+sha256sum --check publication/CSV_SHA256SUMS.txt
 bash tools/run_regression.sh
 bash tools/build_publications.sh
 ```

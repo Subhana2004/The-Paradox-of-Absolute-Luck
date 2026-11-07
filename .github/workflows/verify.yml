@@ -27,6 +27,7 @@ jobs:
       - name: Validate published assets (unchanged from recorded archive)
         run: |
           sha256sum --check publication/ASSET_SHA256SUMS.txt
+          sha256sum --check publication/CSV_SHA256SUMS.txt
           python tools/verify_publication.py
       - name: Re-run mathematical regression and seeded simulations in scratch copy
         run: bash tools/run_regression.sh

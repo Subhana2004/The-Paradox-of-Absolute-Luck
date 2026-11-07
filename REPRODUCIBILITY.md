@@ -17,6 +17,7 @@ The GitHub Actions workflow installs a compatible TeX Live distribution, Ghostsc
 
 ```bash
 sha256sum --check publication/ASSET_SHA256SUMS.txt
+sha256sum --check publication/CSV_SHA256SUMS.txt
 python tools/verify_publication.py
 bash tools/build_publications.sh
 ```
