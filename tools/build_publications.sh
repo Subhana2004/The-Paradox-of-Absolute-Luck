@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
 # Rebuild figure assets and both paper PDFs using source files checked into Git.
 set -euo pipefail
+# Print TeX diagnostic tails on CI failures instead of discarding the error.
+report_failure() {
+  local exitcode=$?
+  if [[ $exitcode -ne 0 ]]; then
+    echo "PDF build failed (exit $exitcode); TeX diagnostics follow:"
+    for log in /tmp/absolute-luck-manuscript-latex.log /tmp/absolute-luck-essay-latex.log; do
+      if [[ -f "$log" ]]; then
+        echo "---- $log ----"
+        tail -n 90 "$log"
+      fi
+    done
+  fi
+}
+trap report_failure EXIT
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 export MPLBACKEND=Agg

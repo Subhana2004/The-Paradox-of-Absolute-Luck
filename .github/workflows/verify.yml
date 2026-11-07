@@ -23,7 +23,11 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements-lock.txt
           sudo apt-get update -qq
-          sudo apt-get install -y -qq texlive-latex-extra texlive-xetex texlive-fonts-recommended lmodern ghostscript poppler-utils
+          sudo apt-get install -y -qq texlive-latex-extra texlive-xetex texlive-fonts-recommended lmodern fonts-noto-core fonts-dejavu-core ghostscript poppler-utils
+      - name: Confirm essay fonts
+        run: |
+          fc-list -f '%{family}\n' | grep -i 'Noto Serif'
+          fc-list -f '%{family}\n' | grep -i 'DejaVu Sans'
       - name: Validate published assets (unchanged from recorded archive)
         run: |
           sha256sum --check publication/ASSET_SHA256SUMS.txt
