@@ -59,3 +59,7 @@ The source-backed mathematical checks and document builds are automated, but tha
 ## Phase 9 — Research integrity verdict
 
 The [Phase 9 research audit](audits/PHASE9_RESEARCH_AUDIT_2026-11-07.md) **reverified the published mathematical constructions and bibliography**, with 23 independently rederived math/data checks and GitHub computational reproduction. Its conclusion is **conditional**, not a certificate of peer review or submission approval. Original comic-panel mechanics, scientific authorship and AI disclosures, licensing, and independent human mathematical review remain open. Run `python audits/phase9_independent_math_checks.py` to replay the cross-checks.
+
+## Phase 10 — Publication venue planning
+
+The [Phase 10 venue strategy](publication/phase-10/README.md) compares Chalkdust, Math Horizons, Tom Rocks Maths and other outlets, and publishes a [venue matrix](publication/phase-10/VENUE_MATRIX.csv), [human-first editorial plan and unsent queries](publication/phase-10/REWRITE_AND_EDITOR_QUERIES.md), and [submission gates](publication/phase-10/SUBMISSION_GATES.md). **Strategy completed; submission still on hold** pending final human authorship, true AI-use disclosures, external review, prior-posting/rights clearance and venue-specific permission. No manuscript has been submitted.
