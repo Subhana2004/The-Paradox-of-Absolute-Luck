@@ -1,0 +1,148 @@
+{
+  "project": "The Paradox of Absolute Luck",
+  "audit_date": "2026-11-07",
+  "audit_kind": "independent source-code-free mathematical re-derivation and recorded-data check",
+  "tests_passed": 23,
+  "tests_total": 23,
+  "all_passed": true,
+  "checks": [
+    {
+      "test": "collision_inequality",
+      "passed": true,
+      "evidence": "2*(99/100)=99/50 > 1"
+    },
+    {
+      "test": "single_latent_ranking",
+      "passed": true,
+      "evidence": "coherent random ranking: A>N=B>N=99/100; A>B=9/10"
+    },
+    {
+      "test": "three_coin_frechet",
+      "passed": true,
+      "evidence": "3*(199/200)-2 = 197/200"
+    },
+    {
+      "test": "three_coin_drop",
+      "passed": true,
+      "evidence": "3*.995-2.60=.385"
+    },
+    {
+      "test": "200_coin_one_failure",
+      "passed": true,
+      "evidence": "p=199/200, pair=198/200, correlation=-1/199"
+    },
+    {
+      "test": "201_exchangeable_variance_barrier",
+      "passed": true,
+      "evidence": "rho=-1/199 < -1/200"
+    },
+    {
+      "test": "201_tv_exact",
+      "passed": true,
+      "evidence": "T probability <=200/201; 201 one-failure witness attains bound"
+    },
+    {
+      "test": "infinite_de_finetti_lower",
+      "passed": true,
+      "evidence": "independent 200-fold success ~.3669578"
+    },
+    {
+      "test": "shared_beta_value",
+      "passed": true,
+      "evidence": "E[Theta^200]=199/399"
+    },
+    {
+      "test": "L_and_H_valid",
+      "passed": true,
+      "evidence": "valid nonnegative qK distributions"
+    },
+    {
+      "test": "L_H_marginals",
+      "passed": true,
+      "evidence": "one=.7 pair=.5 for each model"
+    },
+    {
+      "test": "L_H_triple_difference",
+      "passed": true,
+      "evidence": "L=.3, H=.4 triple success"
+    },
+    {
+      "test": "sharp_triple_LP",
+      "passed": true,
+      "evidence": "8-atom LP bounds [0.3,0.4]"
+    },
+    {
+      "test": "equal_allocation_independent",
+      "passed": true,
+      "evidence": "0.665^3 = 0.294079625 > .24875"
+    },
+    {
+      "test": "coupled_allocation_reversal",
+      "passed": true,
+      "evidence": "equal .33 < concentrated .495"
+    },
+    {
+      "test": "paired_policy_delta",
+      "passed": true,
+      "evidence": ".495-.33=.165"
+    },
+    {
+      "test": "identification_exact_m200",
+      "passed": true,
+      "evidence": "exact classifier accuracy=0.931655486; rounded=0.9317"
+    },
+    {
+      "test": "identification_exact_m500",
+      "passed": true,
+      "evidence": "exact classifier accuracy=0.990693324; rounded=0.9907"
+    },
+    {
+      "test": "phase5_metrics_count",
+      "passed": true,
+      "evidence": "63 rows"
+    },
+    {
+      "test": "phase5_recorded_acceptance",
+      "passed": true,
+      "evidence": "63 pass indicators in checked-in CSV"
+    },
+    {
+      "test": "phase5_wilson_exclusions",
+      "passed": true,
+      "evidence": "8 pointwise 95% Wilson intervals exclude truth"
+    },
+    {
+      "test": "phase5_trials",
+      "passed": true,
+      "evidence": "120,000 trials per primary metric"
+    },
+    {
+      "test": "phase5_probabilities",
+      "passed": true,
+      "evidence": "all 63 row frequencies recomputed from k/n"
+    }
+  ],
+  "artifact_hashes": {
+    "manuscript/Absolute_Luck_Phase6_Manuscript.pdf": {
+      "size": 982715,
+      "sha256": "397ca74534dab9e5fb2d9864cdc2fa4be52302315edd6163fcb4e6cc421e9941"
+    },
+    "essay/Absolute_Luck_Phase7_Essay.pdf": {
+      "size": 131079,
+      "sha256": "c25bcf428fe4b581c8da7c62016a9d4f69090ffbba4ab976ee9e04f5678adc6d"
+    },
+    "research/phase-5/phase5_metrics.csv": {
+      "size": 10849,
+      "sha256": "c7c3909e6689dbe4f64c4cee71cc992dec78ec685c2b1834ef52a69df1f2b936"
+    },
+    "manuscript/Absolute_Luck_Phase6_Manuscript.tex": {
+      "size": 27942,
+      "sha256": "2d4a1ede70c6a24afa1e0b8ff2e7c7d43bab953d98650b495573ba600e433348"
+    },
+    "essay/Absolute_Luck_Phase7_Essay.md": {
+      "size": 9801,
+      "sha256": "307301b2f8e426eca1cdf2d2834f8c549619d0d534189960a3f40512379ea308"
+    }
+  },
+  "boundary": "Not external peer review; fictional mechanics are not primary-panel-verified"
+}

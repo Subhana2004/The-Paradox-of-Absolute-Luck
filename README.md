@@ -54,3 +54,8 @@ Fictional inspiration: *Hardcore Leveling Warrior* by Sehoon Kim. This project i
 Repository maintainer identifier in `CITATION.cff` is **not a final scientific-authorship determination**. Verify authorship, permissions, and AI-use disclosures before academic submission. **No blanket license** has been selected; consult the owner before redistribution or reuse beyond applicable law.
 
 The source-backed mathematical checks and document builds are automated, but that is **not independent peer review or proof of originality**. Canon-specific claims still require verification against primary publication panels. For changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+## Phase 9 — Research integrity verdict
+
+The [Phase 9 research audit](audits/PHASE9_RESEARCH_AUDIT_2026-11-07.md) **reverified the published mathematical constructions and bibliography**, with 23 independently rederived math/data checks and GitHub computational reproduction. Its conclusion is **conditional**, not a certificate of peer review or submission approval. Original comic-panel mechanics, scientific authorship and AI disclosures, licensing, and independent human mathematical review remain open. Run `python audits/phase9_independent_math_checks.py` to replay the cross-checks.

@@ -35,6 +35,8 @@ jobs:
           python tools/verify_publication.py
       - name: Re-run mathematical regression and seeded simulations in scratch copy
         run: bash tools/run_regression.sh
+      - name: Run Phase 9 independent re-derivation
+        run: python audits/phase9_independent_math_checks.py
       - name: Rebuild and validate PDF manuscripts and figures from source
         run: bash tools/build_publications.sh
       - name: Upload freshly built documents and source figures
